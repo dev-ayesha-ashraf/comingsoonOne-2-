@@ -43,7 +43,7 @@ li i{
 /* Video Placeholder */
 .video-placeholder {
     width: 36%;
-    height: 200px;
+    height: 280px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     display: flex;
     justify-content: center;
@@ -58,13 +58,14 @@ li i{
     margin-top: 10px;
     width: 70%;
     color: #ffff;
+    font-size: 20px;
 }
 ul{
     list-style: none;
     margin-top: 18px;
 }
 li{
-    font-size: 13px;
+  font-size: 16px;
     margin-top: 4px;
 }
 
@@ -186,14 +187,17 @@ li{
   .cta-button:hover::before {
     left: 100%;
   }
-.foottext{
+  .foottext {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-    font-size: 14px;
-}
-.colors{
-    color: #ff8c00;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #ffff;
+  }
+.colors {
+  color: #ff8c00;
+  font-size: 50px;
 }
 @media(max-width:800px){
   .main{
