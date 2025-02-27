@@ -195,3 +195,25 @@ li{
 .colors{
     color: #ff8c00;
 }
+@media(max-width:800px){
+  .main{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .features{
+    text-align: center;
+  }
+  .video-placeholder{
+    width: 65%;
+  }
+  .colors ,.Magento{
+    text-align: center;
+  }
+  .Magento{
+    width: 100%;
+  }
+  .cta-button{
+    margin-left: 30%;
+  }
+}
